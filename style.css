@@ -15,14 +15,11 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    background-color: rgba(111, 226, 255, 0.8);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    font-size: 50px;
 } 
 .judulh {
     font-family: "Montserrat", sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     padding-left: 20px;
     color: #ffffff;
@@ -34,10 +31,10 @@ div ul li a {
     font-size: 20px;
     text-decoration: none;
     color: white;
-    padding: 20px 20px 10px 20px;
+    padding: 30px;
 }
 div ul li a:hover {
-    background-color: #db26ae;
+    background-color: #4444448a;
     text-decoration: underline;
 }
 ul {
@@ -47,16 +44,36 @@ ul {
 }
 .logo {
     height: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
+    margin: auto;
+    margin-top: 140px;
     margin-bottom: 0;
     display: block;
 }
 .logotext {
     text-align: center;
-    font-family: "Montserrat", sans-serif;
     font-size: 35px;
     font-weight: 500;
     color: #ffffff;
+}
+.footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c0c0c;
+    color: #ffffff;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    margin-left: 150px;
+}
+.texticon {
+    font-size: 21px;
+    margin-left: 10px;
+    margin-right: 150px;
 }
