@@ -140,3 +140,31 @@ ul {
     font-weight: 500;
     color: #ffffff;
 }
+#bgvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.isian3 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    align-items: center;
+}
+.isian3 img { 
+    max-width: 250px ;
+}
+.isianimage {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 2%;
+    grid-gap: 20px;
+}
+.isianimage img {
+    max-width: 300px;
+    height: auto;
+}
