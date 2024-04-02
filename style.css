@@ -87,10 +87,9 @@ ul {
     background-color: #ffffff;
     box-shadow: 0 0 10px #ff8ff9;
     margin-top: 150px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
     padding-bottom: 150px;
-    margin-bottom: 150px;
 }
 .isian {
     display: grid;
@@ -108,4 +107,30 @@ ul {
     font-size: 60px;
     padding-top: 80px;
     padding-bottom: 80px;
+}
+.konten2 {
+    text-align: justify;
+    background-image: url("aset/background2.png");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 250px;
+    box-shadow: 0 0 10px #ff8ff9;
+    padding-bottom: 400px;
+}
+.isian2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 100px;
+    align-items: center;
+}
+.isian2 img {
+    max-width: 400px;
+    height: auto;
+}
+.judulkonten2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 60px;
+    padding-bottom: 80px;
+    color: #ffffff;
 }
