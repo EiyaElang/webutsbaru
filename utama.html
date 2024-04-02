@@ -4,18 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible " content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>HIMA TI UNDIKNAS</title>
     <style>
     body {
         background-image: url("aset/background.png");
         background-size: cover;
+        background-attachment: fixed;   
+        margin: 0;
     }
-    </style>
+    * {
+        text-decoration:none;
+    }
+    .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: rgba(111, 226, 255, 0.658);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    } 
+    .judulh {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    }
+    div ul li a {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400px;
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        padding: 20px 20px 10px 20px;
+    }
+    div ul li a:hover {
+    background-color: #db26ae;
+    text-decoration: underline;
+    }
+    ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    }
+</style>
 </head>
 <body>
 
-<div>
-    <div>HIMA TI</div>
+<div class="header">
+    
+    <div><a href="utama.html" class="judulh">HIMA TI</a></div>
         <ul>
             <li><a href="utama.html">Home</a></li>     
             <li><a href="#">Tentang Hima</a></li>
