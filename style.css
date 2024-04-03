@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-image: url("aset/background.png");
     background-size: cover;
@@ -183,4 +186,20 @@ a button {
 a button:hover {
     opacity: 0.8;
     cursor: pointer;
-  }
+}
+.ex a {
+    font-size: 30px;
+    color:#000000;
+    font-family: "Montserrat", sans-serif;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #ffffff;
+}
+.ex {
+    margin-top: 0;
+    text-align: center;
+}
+.ex a:hover{
+    opacity: 0.8;
+}
