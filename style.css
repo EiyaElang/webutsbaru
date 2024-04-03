@@ -21,7 +21,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 40px;
     font-weight: bold;
-    padding-left: 20px;
+    padding-left: 100px;
     color: #ffffff;
     text-decoration: none;
 }
@@ -176,7 +176,7 @@ a button {
     align-items: center;
     color: white; 
     font-size: 20px; 
-    margin-right: 20px; 
+    margin-right: 100px; 
     margin-left: 20px;
     border-style: none;
 }
