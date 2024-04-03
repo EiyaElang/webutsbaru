@@ -168,3 +168,19 @@ ul {
     max-width: 300px;
     height: auto;
 }
+a button {
+    background-color: rgb(96, 160, 255);
+    font-family: "Montserrat", sans-serif;
+    border-radius: 10px; 
+    padding: 20px 30px 20px;
+    align-items: center;
+    color: white; 
+    font-size: 20px; 
+    margin-right: 20px; 
+    margin-left: 20px;
+    border-style: none;
+}
+a button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
