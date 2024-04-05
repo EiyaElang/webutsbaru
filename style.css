@@ -19,6 +19,8 @@ body {
     top: 0;
     width: 100%;
     font-size: 50px;
+    padding-bottom: 10px;
+    background-color: #00000025;
 } 
 .judulh {
     font-family: "Montserrat", sans-serif;
@@ -27,6 +29,10 @@ body {
     padding-left: 100px;
     color: #ffffff;
     text-decoration: none;
+    text-align: center;
+}
+.judulh:hover {
+    opacity: 0.8;
 }
 div ul li a {
     font-family: "Montserrat", sans-serif;
@@ -70,7 +76,6 @@ ul {
     position: relative;
     bottom: 0;
 }
-
 .icon {
     width: 60px;
     height: 60px;
@@ -104,6 +109,14 @@ ul {
     max-width: 350px;
     height: auto;
 }
+.konten .isian img:hover {
+    transform: scale(1.1);
+    transition: transform .2s;
+}
+.konten .isianimage img:hover {
+    transform: scale(1.1);
+    transition: transform .2s;
+}
 .judulkonten{
     text-align: center;
     font-weight: 600;
@@ -129,6 +142,10 @@ ul {
 .isian2 img {
     max-width: 400px;
     height: auto;
+}
+.konten2 .isian2 img:hover {
+    transform: scale(1.1);
+    transition: transform .2s;
 }
 .judulkonten2 {
     text-align: center;
