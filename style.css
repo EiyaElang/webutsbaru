@@ -259,7 +259,7 @@ a button:hover {
     opacity: 0.8;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1185px) {
     a button {
         font-size: 15px; 
         margin-right: 15px; 
@@ -278,6 +278,7 @@ a button:hover {
     .header {
         top: 0;
         width: 100%;
+        font-size: 45px;
         padding-bottom: 10px;
         background-color: #00000025;
         padding-top: 0;
@@ -359,5 +360,76 @@ a button:hover {
         flex-wrap: wrap;
         justify-content: center;
         grid-gap: 20px;
+    }
+}
+
+@media (max-width: 645px) {
+    
+    .footer {
+        grid-gap: 2px;
+    }
+    .footer .texticon {
+        font-size: 10px;
+        margin-right: 10px;
+    }
+    .footer img{
+        width: 20px;
+        height: 20px;
+        margin-left: 12px;
+    }  
+    .judulh {
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        padding-left: 20px;
+        color: #ffffff;
+        text-decoration: none;
+        text-align: center;
+    }
+    .header {
+        top: 0;
+        font-size: 18px;
+        width: 100%;
+        padding-bottom: 0px;
+        background-color: #00000025;
+        padding-top: 0;
+        margin-top: 0;
+    } 
+    div ul li a {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 0;
+        font-size: 10px;
+        text-decoration: none;
+        color: white;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 0px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    div ul li a:hover {
+        border-radius: 4px;
+    }
+    a button {
+        background-color: rgb(96, 160, 255);
+        font-family: "Montserrat", sans-serif;
+        border-radius: 10px; 
+        padding: 7px 16px 8px;
+        align-items: center;
+        color: white; 
+        font-size: 10px; 
+        margin-right: 1px; 
+        margin-left: 2px;
+        border-style: none;
+    }
+    .logo {
+        width: 270px;
+        height: auto;
+    }
+    .logotext {
+        font-size: 16px;
+    }
+    .judulkonten {
+        font-size: 20px;
     }
 }
