@@ -301,7 +301,7 @@ a button:hover {
         height: 250px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 25%;
+        margin-top: 150px;
         margin-bottom: 0;
         display: block;
     }
@@ -325,13 +325,12 @@ a button:hover {
         display: flex;
         grid-template-columns: auto auto;
         grid-gap: 5%;
-        font-size: small;
+        font-size: 22px;
         align-items: center;
     }
     .isian img {
         max-width: 220px;
         height: auto;
-        box-shadow: 0 0px 8px #00000060;
     }
     .konten {
         padding-left: 8%;
@@ -339,7 +338,7 @@ a button:hover {
         padding-bottom: 10%;
     }
     .ex {
-        margin-top: 200px;
+        margin-top: 100px;
         margin-bottom: 200px;
     }
     .isianimage {
@@ -365,6 +364,9 @@ a button:hover {
 
 @media (max-width: 645px) {
     
+    .logo {
+        margin-top: 100px;
+    }
     .footer {
         grid-gap: 2px;
     }
@@ -413,12 +415,12 @@ a button:hover {
     a button {
         background-color: rgb(96, 160, 255);
         font-family: "Montserrat", sans-serif;
-        border-radius: 10px; 
+        border-radius: 5px; 
         padding: 7px 16px 8px;
         align-items: center;
         color: white; 
         font-size: 10px; 
-        margin-right: 1px; 
+        margin-right: 12px; 
         margin-left: 2px;
         border-style: none;
     }
@@ -428,8 +430,44 @@ a button:hover {
     }
     .logotext {
         font-size: 16px;
+        margin-bottom: 0;
     }
     .judulkonten {
-        font-size: 20px;
+        font-size: 18px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    .ex {
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+    .ex a{
+        font-size: 10px;
+        border-radius: 30px;
+        padding: 8px;
+    }
+    .isianimage {
+        margin-left: 0;
+        padding-left: 0;
+        grid-gap: 8px;
+    }
+    .isianimage img {
+        justify-content: center;
+        width: 80px;
+        height: auto;
+    }
+    .isian {
+        font-size: 16px;
+    }
+    .isian img {
+        max-width: 160px;
+        height: auto;
+    }
+    .isian2 img {
+        max-width: 200px;
+    }
+    .isian3 {
+        font-size: 12px;
+        padding-top: 0;
     }
 }
