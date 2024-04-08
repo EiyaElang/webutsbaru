@@ -424,12 +424,9 @@ a button:hover {
         border-radius: 4px;
     }
     a button {
-        background-color: rgb(96, 160, 255);
-        font-family: "Montserrat", sans-serif;
         border-radius: 5px; 
         padding: 7px 16px 8px;
         align-items: center;
-        color: white; 
         font-size: 10px; 
         margin-right: 12px; 
         margin-left: 2px;
