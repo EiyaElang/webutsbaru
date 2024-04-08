@@ -5,9 +5,14 @@ body {
     background-image: url("aset/background.png");
     background-size: cover;
     background-attachment: fixed;   
-    margin: 0;
     font-family: "Montserrat", sans-serif;
 }
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
 * {
     text-decoration:none;
 }
@@ -55,7 +60,8 @@ ul {
 }
 .logo {
     height: 500px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 140px;
     margin-bottom: 0;
     display: block;
@@ -92,9 +98,10 @@ ul {
         font-size: 28px;
 }
 .footer {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    grid-template-columns: auto auto auto auto;
     align-items: center;
     background-color: #0c0c0c;
     color: #ffffff;
@@ -110,7 +117,7 @@ ul {
 .texticon {
     font-size: 21px;
     margin-left: 10px;
-    margin-right: 150px;
+    margin-right: 120px;
 }
 .konten {
     font-family: "Montserrat", sans-serif;
@@ -120,10 +127,7 @@ ul {
     font-size: large;
     background-color: #ffffff;
     box-shadow: 0 0 10px #ff8ff9;
-    margin-top: 150px;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-bottom: 150px;
+    margin-top: 10%;
 }
 .isian {
     display: grid;
@@ -156,15 +160,16 @@ ul {
     background-image: url("aset/background2.png");
     background-size: cover;
     background-attachment: fixed;
-    padding: 250px;
+    width: 100% 400px;
+    padding-top: 11%;
     box-shadow: 0 0 10px #ff8ff9;
-    padding-bottom: 400px;
+    padding-bottom: 11%;
 }
 .isian2 {
-    display: grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     grid-gap: 100px;
-    align-items: center;
 }
 .isian2 img {
     max-width: 400px;
@@ -247,4 +252,64 @@ a button:hover {
 }
 .ex a:hover{
     opacity: 0.8;
+}
+
+@media (max-width: 700px) {
+    a button {
+        background-color: rgb(96, 160, 255);
+        font-family: "Montserrat", sans-serif;
+        border-radius: 10px; 
+        align-items: center;
+        color: white; 
+        font-size: 20px; 
+        margin-right: 10%; 
+        margin-left: 20px;
+        border-style: none;
+    }
+    .judulh {
+        font-family: "Montserrat", sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        padding-left: 20px;
+        color: #ffffff;
+        text-decoration: none;
+        text-align: center;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        font-size: 50px;
+        padding-bottom: 10px;
+        background-color: #00000025;
+    } 
+    .judulkonten2 {
+        font-size: 35px;
+    }
+    .logo {
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 160px;
+        margin-bottom: 0;
+        display: block;
+    }
+    .logotext {
+        text-align: center;
+        font-size: 35px;
+        font-weight: 500;
+        color: #ffffff;
+    }
+    .footer .texticon {
+        font-size: small;
+        margin-right: 10%;
+    }
+    .footer img{
+        width: 40px;
+        height: 40px;
+        margin-left: 50px;
+    }   
 }
